@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas.</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            /* SIMPLIFICAÇÃO.
+            Tem como simpliplificar os comando "border" mas tem que ser na sequencia correta, igual a de cima. 
+            
+            Exemplo: border: 10px solid darklategray;
+
+            Utilizando o cod igual ao exemplo, vai funicionar igual a original.
+
+            */ 
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /* SIMPLIFICAÇÃO.
+            Tem como simpliplificar os comando "padding" também, mas tem que ser na sequencia horária, igual como está acima.
+
+            Exemplo1: padding: 10px 10px 10px 10px;
+            Caso todos os números sejam igual ao estar o exemplo1 poder ser, 
+            Exemplo2: padding: 10px;
+
+            Agora caso o top seja igual o bottom e diferente do right, left pode ser
+            Exemplo3: padding 10px 20px;
+            O primeiro número(px) corresponde ao Top e Bottom e o segundo(px) corresponde ao right e left.  
+            
+            */
+
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+            /* SIMPLIFICAÇÃO
+            O cod "Margin" funciona igual o comando padding, só olhar o mesmo exemplo.
+
+            caso queria a box centralizada usar o comando "auto" no right e left
+            Exemplo: margin: 20px auto;
+            
+            */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            /*SIMPLIFICAÇÃO
+            O cod "outline" funciona igual ao comando "boder, só da uma olhada no exemplo."
+            */
+
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa</h1>
+    <p>Os parágrafos(p) são exemplos de box-level, <a href="#">mas os links são exemplos de caaixas inline-level</a>, Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>

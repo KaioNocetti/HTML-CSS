@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de fontes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas:
+               mm, cm, in, px, pt, pc;
+               Recomendado pela WPC é medida px;
+               tamanho normal é 16px;
+
+               Medidas Relativas:
+               em, ex, vw, rem, vh, %.
+               Recomendado pela WPC é em;
+               16px = 1 em.
+            */
+            font-size: 15px;
+
+            
+        }
+
+        h1 {
+            font-family: sans-serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic;
+            /* São fontes muitos usadas em CSS, porém existe um atalho (shorthand): 
+            
+            Siga nesta ordem: font-style -> font-weight -> font-size -> font-family.
+
+            Siga o exemplo na pratica no <p>.
+            */
+        }
+
+        p {
+            font: italic bolder 1em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iure non accusantium iusto accusamus odit placeat blanditiis fuga! Dignissimos, id magni. Ea debitis nihil excepturi et quas dolorum perferendis dolorem! 
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque asperiores similique suscipit reprehenderit vel, quisquam possimus cum ipsa? Maxime deserunt ipsa reprehenderit fuga amet quaerat excepturi, fugit animi dolorem obcaecati!
+    </p>
+    <h2>Mais</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, soluta a quo, ab pariatur laborum nemo maiores omnis eveniet sed assumenda neque autem earum optio, voluptates quos velit nam. Dolor?</p>
+    
+</body>
+</html>
